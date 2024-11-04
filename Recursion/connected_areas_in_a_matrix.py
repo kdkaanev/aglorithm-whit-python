@@ -15,7 +15,7 @@ def explore_area(row, col, matrix):
     result += explore_area(row - 1, col, matrix)
     result += explore_area(row + 1, col, matrix)
     result += explore_area(row, col - 1, matrix)
-    result += explore_area(col, col + 1, matrix)
+    result += explore_area(row, col + 1, matrix)
 
     return result
 
