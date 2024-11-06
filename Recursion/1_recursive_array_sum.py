@@ -3,3 +3,6 @@ def calculate_sum(num, idx):
         return num[idx]
     return num[idx] + calculate_sum(num, idx + 1)
 
+
+num = [int(x) for x in input().split()]
+print(calculate_sum(num, 0))
