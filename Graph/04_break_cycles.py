@@ -42,4 +42,4 @@ for source, destination in sorted(eges, key=lambda x: (x[0], x[1])):
 print(f"Edges to remove: {len(remove_eges)}")
 for first,second in remove_eges:
     print(f"{first} - {second}")
-print()
+
